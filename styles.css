@@ -14,3 +14,34 @@
 .pancake {
     background-color: rgba(151, 118, 28, 0.758);
 }
+
+.button {
+    text-align: center;
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+/* Spanish tortilla */
+
+#tortilla-title {
+    background-color: red;
+    color: yellow;
+    text-align: center;
+}
+
+/* Parmesan cookies */
+
+#parmesan-title {
+    background-color: rebeccapurple;
+    color: aquamarine;
+    text-align: center;
+}
+
+.img-center {
+    margin: 100 300;
+    width: 100%;
+}
+
+img {
+    text-align: center;
+}
