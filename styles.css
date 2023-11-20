@@ -38,10 +38,10 @@
 }
 
 .img-center {
-    margin: 100 300;
-    width: 100%;
+    text-align: center;
 }
 
 img {
-    text-align: center;
+    width: auto;
+    height: 500px;
 }
