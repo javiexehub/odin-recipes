@@ -1,6 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
 #index-title {
     background-color: yellow;
     text-align: center;
+    margin: 0;
+    padding: 30px;
+    font-size: 50px;
 }
 
 .avocato {
@@ -21,6 +31,43 @@
     color: chocolate;
 }
 
+.centered-list {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.centered-list h2{
+    font-size: 30px;
+    color: #ffffff;
+    /* text-decoration: none;  NO SE COMO QUITARLE EL UNDERLINE xD */
+}
+
+.centered-list h2:hover{
+    font-size: 30px;
+    color: #CCCCCC;
+}
+
+.centered-list h2:active{
+    font-size: 30px;
+    color: #e595d1;
+}
+
+.tortilla{
+    background-color: #C08E32;
+    padding: 30px;
+}
+
+.parmesan{
+    background-color: #BA4A20;
+    padding: 30px;
+}
+.sweetp{
+    background-color: #F09800;
+    padding: 30px;
+}
 /* Spanish tortilla */
 
 #tortilla-title {
@@ -42,6 +89,6 @@
 }
 
 img {
-    width: auto;
-    height: 500px;
+    width: 500px;
+    height: auto;
 }
